@@ -24,7 +24,8 @@ export default function handler(
     );
 
     res.status(200).json(medalsDataCompleted);
-  } catch (error) {
+  } catch (err: unknown) {
+    console.error('Error in medals API route:', err);
     res.status(500).json({ error: 'Internal server error' });
   }
 }
