@@ -1,0 +1,62 @@
+/* Base class for all flags */
+.icon {
+    width: 28px;  /* Width of a single icon */
+    height: 17px; /* Height of a single icon */
+    background-image: url('/flags.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: auto;
+  }
+  
+  /* Individual flags (based on sprite order) */
+  .icon.aut {
+    background-position-y: 0;
+  }
+  
+  .icon.blr {
+    background-position-y: -17px;
+  }
+  
+  .icon.can {
+    background-position-y: -34px;
+  }
+  
+  .icon.rus {
+    background-position-y: -153px;
+  }
+  
+  .icon.fra {
+    background-position-y: -68px;
+  }
+  
+  .icon.ger {
+    background-position-y: -85px;
+  }
+  
+  .icon.ita {
+    background-position-y: -102px;
+  }
+  
+  .icon.ned {
+    background-position-y: -119px;
+  }
+  
+  .icon.nor {
+    background-position-y: -136px;
+  }
+  
+  .icon.chn {
+    background-position-y: -51px;
+  }
+  
+  .icon.sui {
+    background-position-y: -187px;
+  }
+  
+  .icon.usa {
+    background-position-y: -204px;
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

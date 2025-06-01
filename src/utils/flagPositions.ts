@@ -1,0 +1,15 @@
+export const flagPositions: Record<string, number> = {
+    RUS: 0,
+    CAN: 1,
+    CHN: 2,
+    FRA: 3,
+    ITA: 4,
+    GER: 5,
+    NOR: 6,
+    SUI: 7,
+    SWE: 8,
+    USA: 9,
+    NED: 10,
+    AUT: 11,
+    BLR: 12,
+  };
