@@ -21,3 +21,6 @@ This is a **Medal Count Mini App** built with **Next.js**, **TypeScript**, and *
 npm install
 npm run dev
 npm run test (WIP)
+
+<img width="510" alt="Screenshot 2025-05-31 at 10 44 24 PM" src="https://github.com/user-attachments/assets/b5374ffe-77a8-41a4-bf71-3afa1230578b" />
+
