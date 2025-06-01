@@ -4,7 +4,7 @@ This is a **Medal Count Mini App** built with **Next.js**, **TypeScript**, and *
 
 ---
 
-## 🚀 Features
+## Features
 
 - Display top 10 countries sorted by **gold**, **silver**, **bronze**, or **total** medals.
 - Supports sorting via **URL parameter** (`?sort=`) or by clicking table headers.
@@ -13,9 +13,9 @@ This is a **Medal Count Mini App** built with **Next.js**, **TypeScript**, and *
 - Robust architecture with **absolute imports** and **TypeScript**.
 - WIP: Unit testing with **Jest** and **React Testing Library**.
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
